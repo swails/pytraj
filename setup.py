@@ -96,7 +96,8 @@ pytraj_home = rootname + "/pytraj/"
 
 # find/install libcpptraj
 try:
-    cpptraj_dir = os.environ['CPPTRAJHOME'] 
+    #cpptraj_dir = os.environ['CPPTRAJHOME'] 
+    cpptraj_dir = "/mnt/raidc2/haichit/Study/Cython/cpptraj_master_github_DanRoe/cpptraj/"
     cpptraj_include = cpptraj_dir + "/src/"
     libdir = cpptraj_dir + "/lib/"
     has_cpptrajhome = True
